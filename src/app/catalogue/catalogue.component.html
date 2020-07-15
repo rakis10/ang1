@@ -1,0 +1,8 @@
+<p>catalogue works!</p>
+<ul>
+    <li *ngFor= " let phone of phones ">
+        {{phone.name}}
+        <button (click)="click(phone.id)">Pridat</button>
+    </li>    
+</ul>
+<app-basket></app-basket>
